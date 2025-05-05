@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ---------------------Q2------------ */
+.images{
+    background-color: rgb(229, 226, 226);
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+    gap: 10px;
+}
+
+.images > img{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+/* ------------------------Q3----------------- */
+
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 90px;
+    background-color: rgb(229, 226, 226);
+    border-radius: 10px;
+}
+
+#head>th{
+    text-align: center;
+    padding: 5px 8px;
+    /* border: 2px solid black; */
+
+}
+.row{
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(237, 161, 161);
+    padding: 8px;
+    border-radius: 5px;
+}
+
